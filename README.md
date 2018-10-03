@@ -11,7 +11,7 @@ eg.
 `/api/convert?input=12 or /api/convert?input=km12 or /api/convert?test=12km`
 
  returns
-`invalid unit`
+`invalid unit` or `invalid number` or `invalid number and unit` or `invalid input` respectively.
 
 *   Fractions can be used, in query parameter (ie. 5, 1/2, 2.5/6), but if nothing is provided it will default to 1\.
 
@@ -25,3 +25,7 @@ eg.
 #### Example Return:
 
 `{"initNum":1,"initUnit":"km","returnNum":0.62137,"returnUnit":"mi","string":"1 kilometers converts to 0.62137 miles"}`
+
+for more details and usage visit
+
+*   [https://imp-metric-converter.glitch.me/](https://imp-metric-converter.glitch.me/)
